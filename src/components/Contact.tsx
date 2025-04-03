@@ -115,7 +115,7 @@ export function Contact() {
                 <a
                   href="https://drive.google.com/file/d/1TQTop9ho7RuxjzpthqKidSTgMnfzjEC-/view?usp=sharin"
                   className="inline-block mt-6 px-6 py-3 bg-teal text-navy-dark rounded-md hover:bg-teal-dark transition-colors duration-200 font-mono"
-                  download
+                  target="_blank"
                 >
                   Download Resume
                 </a>

@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 33% 99%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 210 100% 35%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 171 68% 71%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 222 47% 11%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 171 68% 71%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 213 27% 84%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    @apply transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono text-navy-dark dark:text-slate-light font-semibold;
+  }
+
+  a {
+    @apply text-teal hover:text-teal-dark transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply flex items-center gap-2 text-2xl font-bold font-mono text-navy-dark dark:text-slate-light mb-6;
+  }
+  
+  .section-heading::before {
+    content: "";
+    @apply w-16 h-[1px] bg-teal;
+  }
+  
+  .section-heading::after {
+    content: "";
+    @apply w-24 h-[1px] bg-teal;
+  }
+
+  .nav-link {
+    @apply relative text-slate-dark dark:text-slate-light hover:text-teal dark:hover:text-teal transition-colors duration-200 py-2 font-mono;
+  }
+  
+  .nav-link::after {
+    content: "";
+    @apply absolute left-0 -bottom-1 w-0 h-0.5 bg-teal transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .tech-pill {
+    @apply bg-navy-light/90 dark:bg-slate-dark text-slate-light px-3 py-1 rounded text-sm font-mono;
+  }
+  
+  .project-card {
+    @apply relative overflow-hidden rounded-lg bg-white dark:bg-navy-light border border-slate/10 dark:border-slate-dark/50 shadow-lg hover:shadow-xl transition-all duration-300;
+  }
+  
+  .project-card:hover {
+    @apply border-teal/50 dark:border-teal/30 translate-y-[-5px];
+  }
+  
+  .timeline-item {
+    @apply relative pl-8 pb-8 border-l border-slate/20 dark:border-slate-dark;
+  }
+  
+  .timeline-item::before {
+    content: "";
+    @apply absolute left-[-8px] top-2 w-4 h-4 rounded-full bg-teal;
+  }
+  
+  .contact-link {
+    @apply flex items-center gap-2 text-slate-dark dark:text-slate-light hover:text-teal dark:hover:text-teal transition-colors duration-200;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-navy dark:bg-teal text-white dark:text-navy-dark hover:bg-navy-light dark:hover:bg-teal-dark;
+  }
+
+  .btn-outline {
+    @apply border border-teal text-teal hover:bg-teal/10;
+  }
+
+  .card-animated {
+    @apply transition-all duration-300 hover:shadow-lg border-2 border-transparent hover:border-teal/20;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate/10 dark:bg-navy-light;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate/30 dark:bg-slate-dark rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate/50 dark:bg-slate;
+}
+
+/* Animated background */
+.animated-gradient {
+  background: linear-gradient(-45deg, #0a192f, #172a45, #303C55, #4c5772);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

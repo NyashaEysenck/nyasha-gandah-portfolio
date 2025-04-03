@@ -9,7 +9,7 @@ export function Footer() {
           <div className="mb-4 md:mb-0">
             <a href="#" className="text-2xl font-bold font-mono">
               <span className="text-teal">{"<"}</span>
-              Daniel
+                Nyasha
               <span className="text-teal">{" />"}</span>
             </a>
           </div>

@@ -47,7 +47,7 @@ export function Navbar() {
             className="text-2xl font-bold text-navy-dark dark:text-white font-mono"
           >
             <span className="text-teal">{"<"}</span>
-            Daniel
+            Nyasha
             <span className="text-teal">{" />"}</span>
           </a>
 

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { toast } from "@/components/ui/use-toast";
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";

@@ -27,7 +27,7 @@ export const projects: Project[] = [
     tags: ["TensorFlow", "Deep Learning", "Custom Models", "Distributed Training"],
     categories: ["ml", "ai"],
     links: {
-      github: "#",
+      github: "https://github.com/NyashaEysenck/Deep-Learning",
     },
     icon: <Code />,
     status: "ongoing",
@@ -54,8 +54,7 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "MongoDB", "QR Code"],
     categories: ["web"],
     links: {
-      github: "#",
-      live: "#",
+      github: "https://github.com/NyashaEysenck/Dual-Online-Offline-Payment-System.git"
     },
     icon: <Globe />,
     status: "completed",
@@ -69,7 +68,7 @@ export const projects: Project[] = [
     categories: ["web", "ml", "ai"],
     links: {
       github: "https://github.com/NyashaEysenck/Event-Hub",
-      live: "#",
+
     },
     icon: <PenTool />,
     status: "completed",
@@ -95,8 +94,7 @@ export const projects: Project[] = [
     tags: ["Python", "Streamlit", "Scikit-learn", "Recommendation System"],
     categories: ["ml", "data", "ai", "web"],
     links: {
-      github: "https://github.com/NyashaEysenck/Course-Recommender-System",
-      live: "#",
+      github: "https://github.com/NyashaEysenck/Course-Recommender-System"
     },
     icon: <LineChart />,
     status: "completed",
@@ -106,7 +104,7 @@ export const projects: Project[] = [
     title: "AI Capstone: Deep Learning for Image Classification",
     description: "Implemented and compared ResNet and VGG architectures for image classification, achieving 98%+ accuracy on test data.",
     image: "https://images.unsplash.com/photo-1561736778-92e52a7769ef?auto=format&fit=crop&w=600&q=80",
-    tags: ["Python", "PyTorch", "Deep Learning", "CNN", "Transfer Learning"],
+    tags: ["Python", "Tensorflow", "Deep Learning", "CNN", "Transfer Learning"],
     categories: ["ml", "ai"],
     links: {
       github: "https://github.com/NyashaEysenck/AI-Capstone-Project-with-Deep-Learning",
@@ -123,7 +121,6 @@ export const projects: Project[] = [
     categories: ["data", "ml"],
     links: {
       github: "https://github.com/NyashaEysenck/Applied-Data-Science-Capstone",
-      live: "#",
     },
     icon: <LineChart />,
     status: "completed",

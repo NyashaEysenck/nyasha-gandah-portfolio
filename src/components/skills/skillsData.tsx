@@ -50,7 +50,7 @@ export const skills: Skill[] = [
   {
     name: "React",
     level: "Advanced",
-    description: "Virtual DOM: the relationship counselor for HTML and JS. Used in my Event Management Web App.",
+    description: "Virtual DOM: the relationship counselor for HTML and JS. Used in my AI Career guidance tool and Dual Online/Offline Payment System.",
     categories: ["frontend"],
     icon: <Monitor />,
   },
@@ -78,7 +78,7 @@ export const skills: Skill[] = [
   {
     name: "MongoDB",
     level: "Advanced",
-    description: "NoSQL: where schemas go to retire. Database of choice for my AI Career Guidance Tool.",
+    description: "NoSQL: where schemas go to retire. Database of choice for most of my online projects.",
     categories: ["backend", "data"],
     icon: <Database />,
   },
@@ -99,14 +99,14 @@ export const skills: Skill[] = [
   {
     name: "TensorFlow",
     level: "Advanced",
-    description: "Teaching computers to think, what could go wrong? Core of my Image Description project.",
+    description: "Teaching computers to think, what could go wrong? Core of my Deep learning projects.",
     categories: ["ml", "data"],
     icon: <BrainCircuit />,
   },
   {
     name: "PyTorch",
     level: "Intermediate",
-    description: "When you want your neural networks to be flexible. Used in my AI Capstone project.",
+    description: "When you want your neural networks to be flexible.",
     categories: ["ml", "data"],
     icon: <BrainCircuit />,
   },
@@ -141,7 +141,7 @@ export const skills: Skill[] = [
   {
     name: "Docker",
     level: "Intermediate",
-    description: "Because 'it works on my machine' isn't good enough. Used in my Resource Exchange project.",
+    description: "Because 'it works on my machine' isn't good enough. Helps me prepare all my applications for deployment.",
     categories: ["tools", "backend"],
     icon: <Cpu />,
   },

@@ -14,7 +14,7 @@ export const projects: Project[] = [
     tags: ["Django", "React", "WebSockets", "PostgreSQL"],
     categories: ["web", "data"],
     links: {
-      github: "#",
+      
     },
     icon: <Cpu />,
     status: "ongoing",

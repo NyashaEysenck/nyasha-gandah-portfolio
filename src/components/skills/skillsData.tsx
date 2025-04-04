@@ -177,8 +177,7 @@ export const skills: Skill[] = [
   {
     name: "Teamwork",
     level: "Expert",
-    description: "Successfully collaborating with others without plotting their downfall. A vital skill in my group projects and hackathons.
-",
+    description: "Because sometimes you need someone to blame for the bugs. Active in university clubs.",
     categories: ["soft"],
     icon: <Users />,
   },

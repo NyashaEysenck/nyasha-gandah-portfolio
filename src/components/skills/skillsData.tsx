@@ -3,7 +3,7 @@ import React from "react";
 import { 
   Code, Database, BrainCircuit, Server, Globe, 
   LineChart, Cpu, GitBranch, Monitor, PenTool,
-  Users, Lightbulb, MessageSquare, BookOpen
+  Users, Lightbulb, MessageSquare, RefreshCw, Clock
 } from "lucide-react";
 import { Skill, SkillCategory } from "./types";
 
@@ -177,7 +177,7 @@ export const skills: Skill[] = [
   {
     name: "Teamwork",
     level: "Expert",
-    description: "Because sometimes you need someone to blame for the bugs. Active in university clubs.",
+    description: "Surviving group projects with both the codebase and friendships intact. A vital skill in my group projects and hackathons.",
     categories: ["soft"],
     icon: <Users />,
   },
@@ -193,6 +193,13 @@ export const skills: Skill[] = [
     level: "Expert",
     description: "Rolling with the punches when the requirements change for the 5th time today.",
     categories: ["soft"],
-    icon: <BookOpen />,
+    icon: <RefreshCw />,
+  },
+  {
+    name: "Time Management",
+    level: "Advanced",
+    description: "Juggling multiple projects and deadlines without resorting to all-nighters (most of the time).",
+    categories: ["soft"],
+    icon: <Clock />,
   },
 ];

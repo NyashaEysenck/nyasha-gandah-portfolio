@@ -191,7 +191,7 @@ export const skills: Skill[] = [
   {
     name: "Adaptability",
     level: "Expert",
-    description: "The person you DM when your group's 'simple website' needs auth, animations, and a chatbot 12 hours before demo. Yes, I said yes.",
+    description: "Turning ‘this is impossible’ into ‘this is fine’—like when my friend’s ‘basic website’ secretly needed auth, animations, and ai integration… 12 hours before the demo.",
     categories: ["soft"],
     icon: <RefreshCw />,
   },

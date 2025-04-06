@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 import { Project } from "./types";
 
@@ -55,16 +54,21 @@ export function ProjectCard({ project, isAnimated }: ProjectCardProps) {
         </div>
         
         <div className="flex justify-between items-center mt-4">
-          {project.links.github && (
+          {project.links.github ? (
             <a
               href={project.links.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-dark dark:text-slate-light hover:text-teal transition-colors"
+              className="flex items-center gap-2 text-slate-dark dark:text-slate-light hover:text-teal transition-colors px-3 py-1 rounded-md border border-slate-dark/40 dark:border-slate-light/40"
               aria-label={`GitHub repository for ${project.title}`}
             >
               <Github className="h-5 w-5" />
+              <span className="text-sm font-mono">GitHub</span>
             </a>
+          ) : (
+            <span className="text-sm font-mono text-slate-dark/50 dark:text-slate-light/50 px-3 py-1 border border-slate-dark/20 dark:border-slate-light/20 rounded-md">
+              Soon
+            </span>
           )}
           
           {project.links.live && (
@@ -72,23 +76,15 @@ export function ProjectCard({ project, isAnimated }: ProjectCardProps) {
               href={project.links.live}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-dark dark:text-slate-light hover:text-teal transition-colors"
+              className="flex items-center gap-2 text-slate-dark dark:text-slate-light hover:text-teal transition-colors px-3 py-1 rounded-md border border-slate-dark/40 dark:border-slate-light/40"
               aria-label={`Live demo for ${project.title}`}
             >
               <ExternalLink className="h-5 w-5" />
+              <span className="text-sm font-mono">Live Demo</span>
             </a>
           )}
           
-          <a
-            href={`#project-${project.id}`}
-            className={`px-3 py-1 rounded-md border text-sm font-mono transition-colors duration-200 ${
-              project.status === "ongoing" 
-                ? "border-teal text-teal hover:bg-teal/10" 
-                : "border-slate-dark/40 text-slate-dark hover:bg-slate/10 dark:border-slate-light/40 dark:text-slate-light dark:hover:bg-slate-dark/10"
-            }`}
-          >
-            View Details
-          </a>
+          {/* TODO: Implement project details modal */}
         </div>
       </div>
     </div>

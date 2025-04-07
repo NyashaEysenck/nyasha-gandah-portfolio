@@ -9,6 +9,7 @@ export function Hero() {
   }, []);
 
   const roles = [
+    "Software Engineer",
     "Full Stack Developer", 
     "Data Scientist", 
     "ML Engineer"

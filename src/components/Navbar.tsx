@@ -64,7 +64,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/1FZIWPjYKPe8m0w_xV7VBDViEJPDQpsga/view?usp=sharing"
+              href="https://drive.google.com/file/d/15pJ1GH7LiK6Tw3cusuwQouo-04WHloyD/view?usp=drivesdk"
               className="flex items-center gap-2 px-4 py-2 rounded-md border-2 border-teal text-teal hover:bg-teal/10 transition-colors duration-200 font-mono"
               target="_blank"
               rel="noopener noreferrer"
@@ -108,7 +108,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/1FZIWPjYKPe8m0w_xV7VBDViEJPDQpsga/view?usp=sharing"
+              href="https://drive.google.com/file/d/15pJ1GH7LiK6Tw3cusuwQouo-04WHloyD/view?usp=drivesdk"
               className="flex items-center gap-2 mt-4 px-4 py-2 rounded-md border-2 border-teal text-teal hover:bg-teal/10 transition-colors duration-200 font-mono"
               target="_blank"
               rel="noopener noreferrer"

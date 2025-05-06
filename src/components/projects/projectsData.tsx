@@ -33,6 +33,49 @@ export const projects: Project[] = [
     status: "ongoing",
   },
   {
+    id: "pcos-fuzzy-logic",
+    title: "PCOS Risk Prediction Using Fuzzy Logic",
+    description: "A fuzzy logic-based system to assess and predict the risk of Polycystic Ovary Syndrome (PCOS), leveraging clinical indicators and fuzzy rule sets for interpretable healthcare insights.",
+    image: "https://images.unsplash.com/photo-1588776814546-ec7e5e71865b?auto=format&fit=crop&w=600&q=80",
+    tags: ["Python", "Fuzzy Logic", "Healthcare AI", "Skfuzzy"],
+    categories: ["ml", "ai"],
+    links: {
+      github: "https://github.com/NyashaEysenck/PCOS-Fuzzy-Logic",
+    },
+    icon: <BrainCircuit />,
+    status: "completed",
+  },
+
+  {
+    id: "chiremba-ai",
+    title: "Chiremba AI: Multimodal Health Assistant",
+    description: "An AI-powered multilingual health assistant integrating symptom-based LLM diagnosis and image-based deep learning for lung, brain, and skin conditions. Supports Shona-English audio consultations.",
+    image: "https://images.unsplash.com/photo-1612277794273-c51e84d1b403?auto=format&fit=crop&w=600&q=80",
+    tags: ["LLM", "TensorFlow", "Multilingual AI", "Healthcare", "Audio", "Computer Vision"],
+    categories: ["ai", "ml", "web"],
+    links: {
+      github: "https://github.com/NyashaEysenck/chiremba-full-stack",
+      live: "https://chiremba-full-stack-160376271578.us-central1.run.app"
+    },
+    icon: <BrainCircuit />,
+    status: "completed",
+  },
+
+    {
+    id: "pcos-fuzzy-logic",
+    title: "PCOS Risk Prediction Using Fuzzy Logic",
+    description: "A fuzzy logic-based system to assess and predict the risk of Polycystic Ovary Syndrome (PCOS), leveraging clinical indicators and fuzzy rule sets for interpretable healthcare insights.",
+    image: "https://images.unsplash.com/photo-1588776814546-ec7e5e71865b?auto=format&fit=crop&w=600&q=80",
+    tags: ["Python", "Fuzzy Logic", "Healthcare AI", "Skfuzzy"],
+    categories: ["ml", "ai"],
+    links: {
+      github: "https://github.com/NyashaEysenck/fuzzy-pcos-diagnosis",
+    },
+    icon: <BrainCircuit />,
+    status: "completed",
+  },
+ 
+  {
     id: "ai-career-guidance",
     title: "AI Career Guidance Tool",
     description: "An AI-powered career recommendation and CV generation tool that helps job seekers with career choices and interview preparation.",

@@ -37,7 +37,7 @@ export const projects: Project[] = [
     id: "chiremba-ai",
     title: "Chiremba AI: Multimodal Health Assistant",
     description: "An AI-powered multilingual health assistant integrating symptom-based LLM diagnosis and image-based deep learning for lung, brain, and skin conditions. Supports Shona-English audio consultations.",
-    image: "https://images.unsplash.com/photo-1579762715459-5a068c4a9ff7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVsdGltb2RhbCUyMGFpfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=80",
+    image: "https://unsplash.com/photos/a-person-standing-on-top-of-a-cell-phone-HM50XLVMrg4",
     tags: ["LLM", "TensorFlow", "Multilingual AI", "Healthcare", "Audio", "Computer Vision"],
     categories: ["ai", "ml", "web"],
     links: {
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     id: "pcos-fuzzy-logic",
     title: "PCOS Risk Prediction Using Fuzzy Logic",
     description: "A fuzzy logic-based system to assess and predict the risk of Polycystic Ovary Syndrome (PCOS), leveraging clinical indicators and fuzzy rule sets for interpretable healthcare insights.",
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNhbCUyMGFpfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=80",
+    image: "https://unsplash.com/photos/three-jars-of-vitamins-a-spoon-and-a-pair-of-scissors-on-a--X9lZTjc5t8",
     tags: ["Python", "Fuzzy Logic", "Healthcare AI", "Skfuzzy"],
     categories: ["ml", "ai"],
     links: {

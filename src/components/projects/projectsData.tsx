@@ -37,7 +37,7 @@ export const projects: Project[] = [
     id: "chiremba-ai",
     title: "Chiremba AI: Multimodal Health Assistant",
     description: "An AI-powered multilingual health assistant integrating symptom-based LLM diagnosis and image-based deep learning for lung, brain, and skin conditions. Supports Shona-English audio consultations.",
-    image: "https://unsplash.com/photos/a-person-standing-on-top-of-a-cell-phone-HM50XLVMrg4",
+    image: "https://plus.unsplash.com/premium_photo-1699387204388-120141c76d51?q=80&w=1378&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["LLM", "TensorFlow", "Multilingual AI", "Healthcare", "Audio", "Computer Vision"],
     categories: ["ai", "ml", "web"],
     links: {
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     id: "pcos-fuzzy-logic",
     title: "PCOS Risk Prediction Using Fuzzy Logic",
     description: "A fuzzy logic-based system to assess and predict the risk of Polycystic Ovary Syndrome (PCOS), leveraging clinical indicators and fuzzy rule sets for interpretable healthcare insights.",
-    image: "https://unsplash.com/photos/three-jars-of-vitamins-a-spoon-and-a-pair-of-scissors-on-a--X9lZTjc5t8",
+    image: "https://images.unsplash.com/photo-1698943510941-47b51df8bad0?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags: ["Python", "Fuzzy Logic", "Healthcare AI", "Skfuzzy"],
     categories: ["ml", "ai"],
     links: {

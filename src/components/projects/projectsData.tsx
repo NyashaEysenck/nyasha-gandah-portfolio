@@ -6,19 +6,7 @@ import { Project, ProjectCategory } from "./types";
 
 // Reordering projects to show ongoing first, then completed
 export const projects: Project[] = [
-  {
-    id: "resource-exchange",
-    title: "Real-Time Compute Resource Exchange",
-    description: "An internal auction system enabling teams to bid on idle computing resources in real-time, optimizing resource allocation.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=600&q=80",
-    tags: ["Django", "React", "WebSockets", "PostgreSQL"],
-    categories: ["web", "data"],
-    links: {
-      
-    },
-    icon: <Cpu />,
-    status: "ongoing",
-  },
+
   {
     id: "tensorflow-techniques",
     title: "Advanced TensorFlow Techniques Repository",
@@ -84,7 +72,8 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "MongoDB", "QR Code"],
     categories: ["web"],
     links: {
-      github: "https://github.com/NyashaEysenck/Dual-Online-Offline-Payment-System.git"
+      github: "https://github.com/NyashaEysenck/hybrid-payment-system.git",
+      live: "https://hybrid-payment-system-production.up.railway.app"
     },
     icon: <Globe />,
     status: "completed",

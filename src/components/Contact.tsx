@@ -23,13 +23,6 @@ export function Contact() {
                 <span>ngandah@gmail.com</span>
               </a>
               
-              <a href="tel:+263781358893" className="contact-link">
-                <div className="bg-teal/10 p-3 rounded-full">
-                  <PhoneCall className="h-5 w-5 text-teal" />
-                </div>
-                <span>+263781358893</span>
-              </a>
-              
               <div className="flex space-x-6 mt-8">
                 <a
                   href="https://github.com/NyashaEysenck"
@@ -81,7 +74,7 @@ export function Contact() {
               <ul className="space-y-3 text-white">
                 <li className="flex items-center gap-2">
                   <span className="h-3 w-3 rounded-full bg-teal"></span>
-                  <span>English (Fluent)</span>
+                  <span>English (Native)</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="h-3 w-3 rounded-full bg-teal"></span>

@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Vite App to GitHub Pages
 
 on:
   push:
@@ -28,12 +28,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Configure Git
+      - name: Deploy to GitHub Pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Deploy to GitHub Pages
-        run: npx gh-pages -d dist
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          npx gh-pages -d dist -u "github-actions[bot] <github-actions[bot]@users.noreply.github.com>" -r https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git

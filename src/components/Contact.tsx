@@ -16,11 +16,11 @@ export function Contact() {
             </p>
             
             <div className="space-y-6">
-              <a href="mailto:ngandah@gmail.com" className="contact-link">
+              <a href="mailto:ngandah04@gmail.com" className="contact-link">
                 <div className="bg-teal/10 p-3 rounded-full">
                   <Mail className="h-5 w-5 text-teal" />
                 </div>
-                <span>ngandah@gmail.com</span>
+                <span>ngandah04@gmail.com</span>
               </a>
               
               <div className="flex space-x-6 mt-8">

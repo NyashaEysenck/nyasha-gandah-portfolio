@@ -9,7 +9,7 @@ export function Certifications() {
         title="IBM AI Developer"
         period="July 2024"
         organization="IBM on Coursera"
-        description="Comprehensive certification covering AI fundamentals, machine learning algorithms, neural networks, and practical implementation of AI systems using IBM Watson and cloud services."
+        description="Comprehensive certification covering AI fundamentals, Python, web development, machine learning, and generative AI. It includes hands-on projects like building chatbots and deploying AI apps"
         verificationUrl="https://www.coursera.org/account/accomplishments/professional-cert/JY8AYYQ3BFTW"
       />
       

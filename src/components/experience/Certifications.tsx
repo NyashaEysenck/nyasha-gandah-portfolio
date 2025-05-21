@@ -34,7 +34,7 @@ export function Certifications() {
         title="Machine Learning Specialization"
         period="May 2024"
         organization="DeepLearning.AI on Coursera"
-        description="Certification covering artificial intelligence, machine learning, pytohn programming and practical implementation of artificial intelligence models."
+        description="Specialization that teaches the foundations of machine learning. It covers supervised learning (regression, classification), unsupervised learning (clustering, anomally detection), neural networks, and practical ML strategies."
         verificationUrl="https://www.coursera.org/account/accomplishments/specialization/S9FSUKSAR2HS"
       />
 

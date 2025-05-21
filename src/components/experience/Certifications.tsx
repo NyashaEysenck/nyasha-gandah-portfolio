@@ -25,7 +25,7 @@ export function Certifications() {
         title="IBM Machine Learning"
         period="June 2024"
         organization="IBM on Coursera"
-        description="specialization taught by Andrew Ng covering supervised learning, unsupervised learning, anomaly detection and practical machine learning projects."
+        description="Specialization offered by IBM that teaches core ML concepts like supervised/unsupervised learning, deep learning, and time series analysis. It includes hands-on projects using Python, Scikit-learn, TensorFlow, and Keras."
         verificationUrl="https://www.coursera.org/account/accomplishments/specialization/JAGZV6NNTXE3"
       />
 

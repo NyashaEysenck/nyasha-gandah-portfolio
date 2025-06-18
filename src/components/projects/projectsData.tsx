@@ -59,7 +59,7 @@ export const projects: Project[] = [
     categories: ["ai", "ml", "web"],
     links: {
       github: "https://github.com/TafaraMukarakate/Jobpal-Frontend/tree/main",
-      
+      live: "https://jobpalplatform.netlify.app"
     },
     icon: <BrainCircuit />,
     status: "completed",
